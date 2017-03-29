@@ -82,4 +82,18 @@ Array::
   2) Returns true if the given value is present for some key in hsh.
 
 
+  Time::
+  1) Time is an abstraction of dates and times:
+   - stored internally
+   - history: since January 1, 1970 00:00
+   - Time may have fractions
+  2) Difference
+   - Time.new
+   - Time.at
+
+  now
+  1) gives the current time of return: 
+
+
+
 =end
