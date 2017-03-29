@@ -92,8 +92,23 @@ Array::
    - Time.at
 
   now
-  1) gives the current time of return: 
+  1) gives the current time of return:
 
+
+  File::
+
+  exist?:
+  1a) exist?(file_name) → true or false click to toggle source
+  2b) Return true if the named file exists.
+  -file_name can be an IO object.
+  -“file exists” means that stat() or fstat() system call is successful.
+
+  1b) exists?(file_name) → true or false
+  2b) Deprecated method. Don’t use.
+
+  extname:
+  1a) extname(path) -> string
+  2) Returns the extension (the portion of file name in path starting from the last period).
 
 
 =end
