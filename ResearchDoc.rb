@@ -43,4 +43,27 @@ String::
   1) start_with?([prefixes]+) -> true or false
   2) Returns true if string starts with one of the prefixes given
 
+
+Array::
+
+  first:
+  first(n):
+  1a) first -> object or nil
+  1b) first(n) -> new_array
+  2) Returns the first element, or the first n elements, of the array. If the array is empty, the first form returns nil, and the second form returns an empty array. See also #last for the opposite effect.
+
+  delete:
+  1a) delete(obj) -> item or nil
+  1b) delete(obj){block} -> item or result of block
+  2) Deletes all items from self that are equal to obj
+
+  delete_at:
+  1a) delete_at(index) -> obj or nil
+  2) Deletes the element at the specified index, returning that element, or nil if the index is out of range.
+
+  pop:
+  1a) pop -> obj or nil
+  1b) pop(n) -> new)array
+  2) Removes the last element from self and returns it, or nil if the array is empty.
+
 =end
