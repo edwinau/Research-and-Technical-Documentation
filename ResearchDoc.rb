@@ -66,4 +66,20 @@ Array::
   1b) pop(n) -> new)array
   2) Removes the last element from self and returns it, or nil if the array is empty.
 
+
+  Hash::
+
+  to_a:
+  1) to_a -> array
+  2) Converts hash to a nested array of [ key, value ] arrays.
+
+  has_key?:
+  1) has_key?(key) -> true or false
+  2) Returns true if the given key is present in hash
+
+  has_value?:
+  1) has_value?(value) -> true or false
+  2) Returns true if the given value is present for some key in hsh.
+
+
 =end
