@@ -110,5 +110,4 @@ Array::
   1a) extname(path) -> string
   2) Returns the extension (the portion of file name in path starting from the last period).
 
-
 =end
